@@ -13,6 +13,10 @@
   animation: map-fade-in 0.5s ease 0.5s 1 forwards;
 }
 
+.area-img{
+  -webkit-filter: drop-shadow(0px 3px 10px rgba(255,255,255,.5));
+  filter: drop-shadow(0px 3px 10px rgba(0,0,0,.5));
+}
 
 .gray-map{
   opacity: 0;
