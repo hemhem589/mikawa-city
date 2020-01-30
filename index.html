@@ -4,6 +4,7 @@
   <head>
   	<link rel="stylesheet" type="text/css" href="css/fadein.css">
   	<link rel="stylesheet" type="text/css" href="css/area.css">
+    <script src="js/hover.js"></script>
   	<style type="text/css">
   		.map-box {
     		position: relative;
@@ -20,13 +21,23 @@
 <div class="map-box">
 	<img class="map-img" src="img/base.png">
 	<img class="map-img map-in fadein-obj" src="img/map.png">
-	<img class="map-img area-in fadein-obj" src="img/area.png">
+	<img id="base-map" class="map-img area-in fadein-obj" src="img/area.png">
 
-	<img class="map-img gray-map" src="img/area_gray.png">
-	
-	<div class="map-school"></div>
-	<div class="map-city"></div>
-	<div class="map-entertainment"></div>
+	<img id="gray-map" class="map-img gray-map" src="img/area_gray.png">
+
+	<img id="school-map" class="map-img fadein-obj" src="img/school.png">
+	<img id="city-map" class="map-img fadein-obj" src="img/city.png">
+	<img id="entertainment-map" class="map-img fadein-obj" src="img/entertainment.png">
+	<img id="Landfill-map" class="map-img fadein-obj" src="img/Landfill.png">
+	<img id="high-residential-map" class="map-img fadein-obj" src="img/high-residential.png">
+	<img id="bridge-map" class="map-img fadein-obj" src="img/bridge.png">
+
+	<div id="school-col" class="school-col"></div>
+	<div id="city-col" class="city-col"></div>
+	<div id="entertainment-col" class="entertainment-col"></div>
+	<div id="Landfill-col" class="Landfill-col"></div>
+	<div id="high-residential-col" class="high-residential-col"></div>
+	<div id="bridge-col" class="bridge-col"></div>
 </div>
 
   </body>
