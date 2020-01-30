@@ -1,0 +1,38 @@
+.gray-map{
+  opacity: 0;
+}
+
+.map-school{
+  background: #F50;
+  width: 150px;
+  height: 90px;
+
+  position: absolute;
+  top: 160px;
+  left: 600px;
+}
+.map-school:hover + .gray-map
+{
+  opacity: 1;
+  zoom: 1.5;
+}
+
+.map-city{
+  background: #F50;
+  width: 160px;
+  height: 75px;
+
+  position: absolute;
+  top: 230px;
+  left: 350px;
+}
+
+.map-entertainment{
+  background: #F50;
+  width: 160px;
+  height: 75px;
+
+  position: absolute;
+  top: 130px;
+  left: 330px;
+}
